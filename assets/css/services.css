@@ -1,0 +1,49 @@
+.services {
+  height: 450px;
+  background: #e8f6ff;
+}
+
+.services .services-header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.services .services-header .title {
+  font-size: 18px;
+  color: #3d3c38;
+  font-weight: bold;
+}
+
+.services .services-header .title::after {
+  content: " ";
+  background: #3D3C38;
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.services .services-header .description {
+  margin-top: 15px;
+}
+
+.services .row {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services .row .col-md-6 .icon img {
+  margin-bottom: 15px;
+}
+
+.services .row .col-md-6 .title {
+  font-size: 16px;
+  color: #3d3c38;
+  font-family: 'Gotham-Bold';
+}
+
+.services .row .col-md-6 .description {
+  margin-top: 20px;
+  line-height: 25px;
+}
