@@ -1,0 +1,24 @@
+.about-us {
+  height: 300px;
+  background: white;
+}
+
+.about-us .row {
+  color: #3D3C38;
+  padding-top: 80px;
+}
+
+.about-us .row .who-are-we {
+  font-size: 18px;
+  color: #3d3c38;
+  font-weight: bold;
+}
+
+.about-us .row .who-are-we span.underline {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3D3C38;
+}
+
+.about-us .row .info {
+  color: #343233;
+}
