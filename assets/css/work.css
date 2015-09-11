@@ -1,0 +1,29 @@
+.work {
+  height: 180px;
+  background: white;
+}
+
+.work .work-header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.work .work-header .title {
+  font-size: 18px;
+  color: #3d3c38;
+  font-weight: bold;
+}
+
+.work .work-header .title::after {
+  content: " ";
+  background: #3D3C38;
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.work .work-header .description {
+  margin-top: 15px;
+}

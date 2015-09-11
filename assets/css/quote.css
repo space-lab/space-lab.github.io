@@ -1,0 +1,33 @@
+.quote {
+  height: 220px;
+  text-align: center;
+  background: #fbfbfb;
+}
+
+.quote .sign {
+  font-family: 'Coustard', serif;
+  font-size: 50px;
+  padding-top: 30px;
+  margin-bottom: -20px;
+}
+
+.quote .name {
+  margin-bottom: 3px;
+  font-family: 'Gotham-bold';
+}
+
+.quote .name::before {
+  content: " ";
+  background: #3D3C38;
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.quote .about {
+  font-size: 10px;
+  font-weight: bold;
+}
