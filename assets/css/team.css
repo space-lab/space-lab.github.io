@@ -1,0 +1,76 @@
+.team {
+  height: auto;
+  background: white;
+  text-align: center;
+}
+
+.team .title {
+  font-size: 18px;
+  color: #3d3c38;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.team .title::after {
+  content: " ";
+  background: #3D3C38;
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.team .description {
+  margin-top: 15px;
+}
+
+.team .team-members {
+  padding-bottom: 50px;
+}
+
+.team .team-members .team-member {
+  color: black;
+  margin-top: 50px;
+}
+
+.team .team-members .team-member .profile-image img {
+  width: 140px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.team .team-members .team-member .profile-image img:hover {
+  padding: 6px;
+  border: solid 2px black;
+}
+
+.team .team-members .team-member .name {
+  margin-top: 7px;
+  font-size: 18px;
+  font-family: 'Gotham-bold';
+}
+
+.team .team-members .team-member .role {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.team .team-members .team-member .social-links {
+  margin-top: 10px;
+}
+
+.team .team-members .team-member .social-links img {
+  height: 14px;
+  margin: 0 5px;
+}
+
+.team .sign {
+  font-family: 'Coustard', serif;
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.team .text {
+  padding: 0 350px 60px;
+}
