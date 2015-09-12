@@ -8,22 +8,20 @@
     display: inline-block;
   }
 
-  .space-image {
+  .space-image .space-art-work {
+    display: block;
     position: relative;
   }
 
-  .space-image .space-art-work {
-    display: block;
-  }
-
   .space-image .space-art-work img {
+    display: block;
     width: 100%;
   }
 
-  .space-image .moto {
+  .space-image .space-art-work .moto {
     position: absolute;
     top: 55px;
-    left: 31%;
+    left: 25%;
     font-size: 3vw;
     width: 50%;
   }
@@ -79,9 +77,9 @@
     max-width: 1200px;
   }
 
-  .space-image .moto {
+  .space-image .space-art-work .moto {
     font-size: 32px;
-    left: 35%;
+    left: 24%;
   }
 
   .about-us {

@@ -3,20 +3,21 @@
   background: #faf9f4;
 }
 
-.space-image .space-art-work {
+.space-image .space-art-work img {
   display: none;
 }
 
-.space-image .moto {
+.space-image .space-art-work .moto {
   width: 78%;
   display: block;
   margin: 0 auto;
   color: #3d3c38;
   font-size: 4.8vw;
   line-height: 2;
+  text-align: center;
 }
 
-.space-image .moto span.underline {
+.space-image .space-art-work .moto span.underline {
   font-family: 'Gotham-black';
   padding-bottom: 5px;
   border-bottom: 3px solid #3D3C38;
