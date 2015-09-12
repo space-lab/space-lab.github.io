@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 100%;
 }
 
 a:hover, a:focus {
@@ -34,6 +34,7 @@ header .header-links .brand a {
 }
 
 header .header-links ul.right-links {
+  display: none;
   float: right;
 }
 

@@ -1,19 +1,15 @@
 .space-image {
-  margin: 30px 40px 0;
+  margin: 20px 40px 35px;;
   background: #faf9f4;
-  height: 560px;
-  background-image: url("../images/Space@2x.png");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .space-image .moto {
-  width: 370px;
+  width: 78%;
   display: block;
   margin: 0 auto;
-  padding-top: 100px;
   color: #3d3c38;
-  font-size: 32px;
+  font-size: 4.8vw;
+  line-height: 2;
 }
 
 .space-image .moto span.underline {

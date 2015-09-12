@@ -1,11 +1,10 @@
 .services {
-  height: 450px;
   background: #e8f6ff;
+  padding: 50px 25px 30px;
 }
 
 .services .services-header {
   text-align: center;
-  padding-top: 50px;
 }
 
 .services .services-header .title {
@@ -30,7 +29,11 @@
 
 .services .row {
   text-align: center;
-  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.services .row .col-md-6 {
+  margin-top: 35px;
 }
 
 .services .row .col-md-6 .icon img {

@@ -1,0 +1,31 @@
+@media screen and (min-width: 480px) {
+  .space-image {
+    background: red;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .space-image {
+    background: green;
+  }
+}
+
+
+/*@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px) {
+    .space-image {
+      height: 425px;
+    }
+    .space-image .moto {
+      font-size: 27px;
+      width: 323px;
+    }
+}
+
+@media only screen
+  and (min-width: 1366px) {
+    .space-image {
+      background-size: cover;
+    }
+}*/
