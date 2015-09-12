@@ -3,6 +3,10 @@
   background: #faf9f4;
 }
 
+.space-image .space-art-work {
+  display: none;
+}
+
 .space-image .moto {
   width: 78%;
   display: block;

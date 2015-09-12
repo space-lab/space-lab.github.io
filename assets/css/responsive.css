@@ -1,10 +1,74 @@
 @media screen and (min-width: 480px) {
+
+  .container {
+    width: 90%;
+  }
+
+  header .header-links ul.right-links {
+    display: inline-block;
+  }
+
   .space-image {
-    background: red;
+    position: relative;
+  }
+
+  .space-image .space-art-work {
+    display: block;
+  }
+
+  .space-image .space-art-work img {
+    width: 100%;
+  }
+
+  .space-image .moto {
+    position: absolute;
+    top: 55px;
+    left: 31%;
+    font-size: 3vw;
+    width: 50%;
+  }
+
+  .about-us {
+    padding: 30px 10%;
+  }
+
+  .services {
+    padding: 50px 10% 30px;
+  }
+
+  .team-members .row .col-md-3 {
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .team-members .row .col-md-3 .team-member {
+    display: inline-block;
+  }
+
+  .team .text {
+    padding: 0 10% 60px;
+  }
+
+  .contact hr {
+    margin-top: 80px;
+  }
+
+  .contact footer .copyright {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+
+  .contact footer .social {
+    display: inline-block;
+    margin-top: 0;
+    float: right;
   }
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 770px) {
   .space-image {
     background: green;
   }
