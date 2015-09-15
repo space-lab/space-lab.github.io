@@ -1,0 +1,126 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .space-image .space-art-work {
+    display: block;
+    position: relative;
+  }
+
+  .space-image .space-art-work img {
+    display: block;
+    width: 100%;
+  }
+
+  .space-image .space-art-work .moto {
+    position: absolute;
+    top: 55px;
+    left: 25%;
+    font-size: 3vw;
+    width: 50%;
+  }
+
+  .about-us {
+    padding: 30px 10%;
+  }
+
+  .services {
+    padding: 50px 10% 30px;
+  }
+
+  .team-members .row .col-md-3 {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .team-members .row .col-md-3 .team-member {
+    display: inline-block;
+  }
+
+  .team .text {
+    padding: 0 10% 60px;
+  }
+
+  .contact hr {
+    margin-top: 80px;
+  }
+
+  .contact footer .copyright {
+    width: 70%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+
+  .contact footer .social {
+    display: inline-block;
+    margin-top: 0;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  header .header-links ul.right-links {
+    display: inline-block;
+  }
+
+  .container {
+    max-width: 800px;
+  }
+
+  .space-image .space-art-work img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .space-image .space-art-work .moto {
+    font-size: 25px;
+    left: 24%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .space-image .space-art-work img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .space-image .space-art-work .moto {
+    font-size: 32px;
+    left: 24%;
+  }
+
+  .about-us {
+    padding: 70px 0 100px;
+  }
+
+  .about-us .row .col-md-6 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-us .row .who-are-we {
+    text-align: left;
+  }
+
+  .about-us .row .who-are-we span.underline {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3D3C38;
+  }
+
+  .about-us .row .who-are-we::after {
+    display: none;
+  }
+
+  .team-members .row .col-md-3 {
+    width: 25%;
+  }
+
+  .team .text {
+    padding: 0 27% 60px;
+  }
+}
