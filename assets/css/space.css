@@ -11,14 +11,14 @@
   width: 78%;
   display: block;
   margin: 0 auto;
-  color: #3d3c38;
-  font-size: 4.8vw;
-  line-height: 2;
+  font-size: 40px;
   text-align: center;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .space-image .space-art-work .moto span.underline {
-  font-family: 'Gotham-black';
+  font-family: 'Gotham-bold';
   padding-bottom: 5px;
   border-bottom: 3px solid #3D3C38;
 }

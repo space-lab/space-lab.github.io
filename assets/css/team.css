@@ -5,10 +5,12 @@
 }
 
 .team .title {
-  font-size: 18px;
-  color: #3d3c38;
-  font-weight: bold;
   padding-top: 50px;
+  font-family: Gotham-Medium;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 .team .title::after {
@@ -23,6 +25,9 @@
 
 .team .description {
   margin-top: 15px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 26px;
 }
 
 .team .team-members {
@@ -35,7 +40,7 @@
 }
 
 .team .team-members .team-member .profile-image img {
-  width: 140px;
+  width: 150px;
   padding: 8px;
   border-radius: 50%;
 }
@@ -47,13 +52,18 @@
 
 .team .team-members .team-member .name {
   margin-top: 7px;
-  font-size: 18px;
-  font-family: 'Gotham-bold';
+  font-family: Gotham-Medium;
+  font-size: 20px;
+  color: #000000;
+  line-height: 30px;
 }
 
 .team .team-members .team-member .role {
-  font-size: 12px;
   margin-top: 5px;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 2px;
+  line-height: 24px;
 }
 
 .team .team-members .team-member .social-links {
@@ -66,11 +76,14 @@
 }
 
 .team .sign {
-  font-family: 'Coustard', serif;
+  font-family: 'Georgia', serif;
   font-size: 50px;
   margin-bottom: -20px;
 }
 
 .team .text {
   padding: 0 20px 60px;
+  font-size: 15px;
+  color: #000000;
+  line-height: 24px;
 }

@@ -8,9 +8,11 @@
 }
 
 .services .services-header .title {
-  font-size: 18px;
-  color: #3d3c38;
-  font-weight: bold;
+  font-family: Gotham-Medium;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 .services .services-header .title::after {
@@ -25,6 +27,9 @@
 
 .services .services-header .description {
   margin-top: 15px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 26px;
 }
 
 .services .row {
@@ -48,5 +53,7 @@
 
 .services .row .col-md-6 .description {
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 26px;
+  font-size: 15px;
+  color: #000000;
 }

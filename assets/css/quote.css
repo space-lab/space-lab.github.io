@@ -6,15 +6,24 @@
 }
 
 .quote .sign {
-  font-family: 'Coustard', serif;
+  font-family: 'Georgia', serif;
   font-size: 50px;
   padding-top: 30px;
   margin-bottom: -20px;
 }
 
+.quote .text {
+  font-size: 20px;
+  color: #000000;
+  line-height: 26px;
+}
+
 .quote .name {
   margin-bottom: 3px;
-  font-family: 'Gotham-bold';
+  font-family: Gotham-Medium;
+  font-size: 18px;
+  color: #000000;
+  line-height: 26px;
 }
 
 .quote .name::before {
@@ -29,6 +38,8 @@
 }
 
 .quote .about {
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 2px;
+  line-height: 26px;
 }

@@ -15,9 +15,11 @@
 .about-us .row .who-are-we {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 18px;
-  color: #3d3c38;
-  font-weight: bold;
+  font-family: 'Gotham-Medium';
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 .about-us .row .who-are-we::after {
@@ -32,5 +34,7 @@
 }
 
 .about-us .row .info {
-  color: #343233;
+  font-size: 15px;
+  color: #000000;
+  line-height: 24px;
 }

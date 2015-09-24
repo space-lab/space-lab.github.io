@@ -23,13 +23,16 @@ header .header-links {
 
 header .header-links a, header .header-links a:hover {
   font-family: 'Gotham-Bold';
-  color: #343434;
+  color: #333333;
   text-decoration: none;
 }
 
 header .header-links .brand a {
+  font-family: 'Gotham-Medium';
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 26px;
   float: left;
-  font-size: 18px;
   margin-top: -2px;
 }
 
@@ -41,5 +44,11 @@ header .header-links ul.right-links {
 header .header-links ul.right-links li {
   list-style: none;
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 60px;
+}
+
+header .header-links ul.right-links li a {
+  font-family: Gotham-Medium;
+  font-size: 15px;
+  line-height: 18px;
 }
