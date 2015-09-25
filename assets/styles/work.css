@@ -1,5 +1,4 @@
 .work {
-  height: 180px;
   background: white;
 }
 
@@ -31,4 +30,90 @@
   font-size: 16px;
   color: #333333;
   line-height: 26px;
+}
+
+.work .case-studies {
+  overflow: auto;
+  margin-top: 50px;
+  width: 100% !important;
+}
+
+.work .case-studies li {
+  list-style: none;
+}
+
+.work .case-studies ul li{
+  float: left;
+}
+
+.work .case-studies ul li img {
+  width: 100%;
+}
+
+.work .case-studies ul .description {
+  background-color: #FBF9F3;
+  text-align: left;
+  margin-top: 0px;
+  height: 700px;
+  padding: 50px 60px;
+}
+
+.work .case-studies .case-title {
+  font-family: Gotham-Medium;
+  font-size: 20px;
+  color: #000000;
+  line-height: 30px;
+  margin-bottom: 3px;
+}
+
+.work .case-studies .case-subtitle {
+  font-family: Gotham-Book;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 2px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.work .case-studies .case-description {
+  font-family: Gotham-Book;
+  font-size: 15px;
+  color: #000000;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.work .case-studies .read div {
+  padding: 12px 21px;
+  background-color: transparent;
+  width: 228px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: solid 2px #414242;
+  font-family: Gotham-Medium;
+  font-size: 17px;
+  color: #333333;
+  letter-spacing: 0.47px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+
+.work .case-studies .arrows .prev img, .work .case-studies .arrows .next img {
+  width: 25px;
+}
+
+.case-studies .case-studie {
+  margin-left: 0px !important;
+}
+
+.work .case-studies .case-studie .left, .work .case-studies .case-studie .right {
+  width: 50%;
+  float: left;
+  height: 700px
+}
+
+.work .case-studies .case-studie .left {
+  background-color: #F8F2E1;
 }
