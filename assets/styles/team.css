@@ -70,8 +70,10 @@
   margin-top: 10px;
 }
 
-.team .team-members .team-member .social-links img {
-  height: 14px;
+.team .team-members .team-member .social-links div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
   margin: 0 5px;
 }
 

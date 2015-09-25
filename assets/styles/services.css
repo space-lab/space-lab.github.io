@@ -34,15 +34,21 @@
 
 .services .row {
   text-align: center;
-  padding-bottom: 30px;
-}
-
-.services .row .col-md-6 {
   margin-top: 35px;
 }
 
-.services .row .col-md-6 .icon img {
+.services .row .col-md-6 {
+  margin-bottom: 30px;
+}
+
+.services .row .col-md-6 .icon {
   margin-bottom: 15px;
+}
+
+.services .row .col-md-6 .icon .box {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
 }
 
 .services .row .col-md-6 .title {

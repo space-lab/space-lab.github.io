@@ -49,7 +49,9 @@
   display: block;
 }
 
-.contact footer .social a {
-  display: inline;
+.contact footer .social div {
+  display: inline-block;
   margin: 10px 7px;
+  width: 24px;
+  height: 24px;
 }

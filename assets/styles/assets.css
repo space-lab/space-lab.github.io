@@ -1,0 +1,50 @@
+.services .icon .box.design-icon {
+  background-image: url(../images/design-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services .icon .box.tech-icon {
+  background-image: url(../images/tech-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team .team-members .social-links .twitter {
+  background-image: url(../images/twitter.svg);
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team .team-members .social-links .github {
+  background-image: url(../images/github.svg);
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team .team-members .social-links .dribbble {
+  background-image: url(../images/dribbble.svg);
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact footer .social .twitter {
+  background-image: url(../images/twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact footer .social .github {
+  background-image: url(../images/github.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact footer .social .dribbble {
+  background-image: url(../images/dribbble.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

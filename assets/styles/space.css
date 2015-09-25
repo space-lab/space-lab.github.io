@@ -7,7 +7,7 @@
   display: none;
 }
 
-.space-image .space-art-work .moto {
+.space-image .space-art-work .motto {
   width: 78%;
   display: block;
   margin: 0 auto;
@@ -17,7 +17,7 @@
   line-height: 52px;
 }
 
-.space-image .space-art-work .moto span.underline {
+.space-image .space-art-work .motto span.underline {
   font-family: 'Gotham-bold';
   padding-bottom: 5px;
   border-bottom: 3px solid #3D3C38;

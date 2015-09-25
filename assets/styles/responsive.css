@@ -13,7 +13,7 @@
     width: 100%;
   }
 
-  .space-image .space-art-work .moto {
+  .space-image .space-art-work .motto {
     position: absolute;
     top: 55px;
     left: 25%;
@@ -76,7 +76,7 @@
     max-width: 1200px;
   }
 
-  .space-image .space-art-work .moto {
+  .space-image .space-art-work .motto {
     font-size: 25px;
     left: 24%;
   }
@@ -89,7 +89,7 @@
     max-width: 1200px;
   }
 
-  .space-image .space-art-work .moto {
+  .space-image .space-art-work .motto {
     font-size: 32px;
     left: 24%;
   }
