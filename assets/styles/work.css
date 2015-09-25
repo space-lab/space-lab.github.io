@@ -100,8 +100,9 @@
 }
 
 
-.work .case-studies .arrows .prev img, .work .case-studies .arrows .next img {
-  width: 25px;
+.work .case-studies .arrows img {
+  width: 30px;
+  margin-right: 20px;
 }
 
 .case-studies .case-studie {
@@ -112,8 +113,4 @@
   width: 50%;
   float: left;
   height: 700px
-}
-
-.work .case-studies .case-studie .left {
-  background-color: #F8F2E1;
 }
