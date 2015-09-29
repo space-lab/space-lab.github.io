@@ -38,19 +38,21 @@
   width: 100% !important;
 }
 
-.work .case-studies li {
-  list-style: none;
-}
-
-.work .case-studies ul li{
+.work .case-studies .left, .work .case-studies .right{
   float: left;
 }
 
-.work .case-studies ul li img {
+.work .case-studies .right {
+  padding-left: 30px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+.work .case-studies .left img {
   width: 100%;
 }
 
-.work .case-studies ul .description {
+.work .case-studies .right .description {
   background-color: #FBF9F3;
   text-align: left;
   margin-top: 0px;
@@ -102,7 +104,8 @@
 
 .work .case-studies .arrows img {
   width: 30px;
-  margin-right: 20px;
+  display: inline;
+  cursor: pointer;
 }
 
 .case-studies .case-studie {
