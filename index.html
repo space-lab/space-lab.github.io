@@ -46,7 +46,15 @@
 
     <section class="space-image">
       <div class="space-art-work">
-        <img src="assets/images/artwork@2x.png">
+
+        <ul id="scene">
+          <li class="layer" data-depth="0.20"><img src="assets/images/artwork/layer-1.png"></li>
+          <li class="layer" data-depth="0.40"><img src="assets/images/artwork/layer-2.png"></li>
+          <li class="layer" data-depth="0.60"><img src="assets/images/artwork/layer-3.png"></li>
+          <li class="layer" data-depth="0.80"><img src="assets/images/artwork/layer-4.png"></li>
+          <li class="layer" data-depth="1.00"><img src="assets/images/artwork/layer-5.png"></li>
+        </ul>
+
         <div class="motto">
           We turn
           <span class="underline">great ideas</span>
@@ -340,9 +348,11 @@
     </section>
 
     <script src="assets/scripts/jquery-2.1.4.min.js"></script>
-    <script src="assets/scripts/unslider.js"></script>
     <script src="assets/scripts/jquery-event-swipe.js"></script>
+    <script src="assets/scripts/jquery.parallax.js"></script>
+    <script src="assets/scripts/requestAnimationFrame.js"></script>
+    <script src="assets/scripts/parallax.js"></script>
+    <script src="assets/scripts/unslider.js"></script>
     <script src="assets/scripts/main.js"></script>
-
   </body>
 </html>
