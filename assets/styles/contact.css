@@ -11,6 +11,10 @@
   line-height: 31px;
 }
 
+.contact a {
+  display: inline-block;
+}
+
 .contact .email {
   padding: 12px 21px;
   background-color: transparent;

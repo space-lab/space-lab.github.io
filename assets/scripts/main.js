@@ -7,20 +7,13 @@ $(function (){
   scroll('#contact-link', '#contact');
 
   //case stuidies functionality
-  var unslider = $('.case-studies').unslider({
+  $('.case-studies').slick({
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
     speed: 400,
-  	delay: false,
-  	keys: true,
-  	dots: false,
-  	fluid: false
-  });
-
-
-  $('.unslider-arrow').on('click', function(e) {
-    var fn = this.className.split(' ')[1];
-
-    e.preventDefault();
-    unslider.data('unslider')[fn]();
+    infinite: false,
+    dots: false,
+    cssEase: 'linear'
   });
 });
 
