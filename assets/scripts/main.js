@@ -1,4 +1,4 @@
-$(function (){
+$(function () {
   //scroll functionality
   scroll('#about-us-link', '#about-us');
   scroll('#services-link', '#services');
@@ -24,3 +24,6 @@ function scroll(link, div){
     }, 500);
   });
 };
+
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
