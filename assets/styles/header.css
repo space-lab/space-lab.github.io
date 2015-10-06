@@ -52,3 +52,11 @@ header .header-links ul.right-links li a {
   font-size: 15px;
   line-height: 18px;
 }
+
+.space-image .space-art-work {
+  text-align: center;
+}
+
+.space-image #scene {
+  display: inline-block;
+}
