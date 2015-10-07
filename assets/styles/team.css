@@ -81,6 +81,19 @@
   margin: 0 5px;
 }
 
+.team-member .social-links .github,
+.team-member .social-links .twitter,
+.team-member .social-links .dribbble {
+  opacity: 0.75;
+}
+
+.team-member .social-links .github:hover,
+.team-member .social-links .twitter:hover,
+.team-member .social-links .dribbble:hover {
+  opacity: 1;
+  fill: blue;
+}
+
 .team .sign {
   font-family: 'Georgia', serif;
   font-size: 50px;

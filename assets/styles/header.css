@@ -65,6 +65,12 @@ header .header-links ul.right-links li a {
   font-family: Gotham-Medium;
   font-size: 15px;
   line-height: 18px;
+  transition: all 0.1s ease 0s;
+}
+
+header .header-links ul.right-links li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #3D3C38;
 }
 
 .space-image .space-art-work {

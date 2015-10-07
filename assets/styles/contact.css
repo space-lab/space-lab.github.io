@@ -28,6 +28,7 @@
   color: #333333;
   letter-spacing: 0.47px;
   line-height: 20px;
+  transition: all 0.4s ease 0s;
 }
 
 .contact hr {

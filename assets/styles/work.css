@@ -99,8 +99,13 @@
   letter-spacing: 0.47px;
   line-height: 20px;
   margin-bottom: 50px;
+  transition: all 0.4s ease 0s;
 }
 
+.btn-hover:hover {
+  color: #faf9f4 !important;
+  background: #333333 !important;
+}
 
 .work .case-studies .arrows img {
   width: 30px;
