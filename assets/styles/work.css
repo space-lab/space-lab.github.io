@@ -38,9 +38,9 @@
   width: 100% !important;
 }
 
-.work .case-studies .left, .work .case-studies .right{
+/*.work .case-studies .left, .work .case-studies .right{
   float: left;
-}
+}*/
 
 .work .case-studies .right {
   padding-left: 30px;
@@ -113,7 +113,7 @@
 }
 
 .work .case-studies .case-studie .left, .work .case-studies .case-studie .right {
-  width: 50%;
-  float: left;
-  height: 700px
+  /*width: 50%;
+  float: left;*/
+  height: 700px;
 }
