@@ -15,6 +15,8 @@ $(function () {
     dots: false,
     cssEase: 'linear'
   });
+
+  navigationToggle();
 });
 
 function scroll(link, div){
@@ -24,6 +26,48 @@ function scroll(link, div){
     }, 500);
   });
 };
+
+function navigationToggle() {
+  var menu = $('.nav-menu'),
+       nav = $('.right-links'),
+       navOpened = $('.nav-menu-opened'),
+       animateTime = 500;
+
+ navOpened.hide();
+
+ $(menu).click(function(){
+   slideToggle();
+ });
+ $(navOpened).click(function(){
+   slideToggle();
+ });
+
+ function slideToggle() {
+   if(nav.height() === 0){
+     menu.hide();
+     navOpened.show();
+     autoHeightAnimate(nav, animateTime);
+   } else {
+     menu.show();
+     navOpened.hide();
+     nav.stop().animate({ height: '0' }, animateTime);
+   }
+ }
+
+  function autoHeightAnimate(element, time){
+  	var curHeight = element.height(),
+        autoHeight = element.css('height', 'auto').height();
+
+        element.height(curHeight);
+    	  element.stop().animate({ height: autoHeight }, parseInt(time));
+  }
+
+};
+
+
+
+
+
 
 var scene = document.getElementById('scene');
 var parallax = new Parallax(scene);

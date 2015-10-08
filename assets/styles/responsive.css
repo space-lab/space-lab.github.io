@@ -1,9 +1,82 @@
-@media screen and (max-width: 850px) {
-  header .header-links .right-links li {
-    display: block;
+
+@media screen and (max-width: 868px) {
+
+  header .header-links ul.right-links li {
+    margin-left: 45px;
   }
+
 }
 
+
+@media screen and (max-width: 768px) {
+
+  header .header-links ul.right-links li {
+    margin-left: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 690px) {
+
+  header {
+    height: auto;
+  }
+
+  header .header-links {
+    padding-bottom: 15px;
+    position: relative;
+  }
+
+  .nav-open {
+    height: auto !important;
+  }
+
+
+  header .header-links ul.right-links,
+  header .header-links ul.right-links li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  header .header-links ul.right-links {
+    height: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+
+  header .header-links ul.right-links li {
+    margin: 0;
+    font-size: 2em;
+    padding: 20px;
+
+  }
+  header .header-links ul.right-links li a {
+    font-size: 0.6em;
+  }
+
+  header .header-links .nav-menu,
+  header .header-links .nav-menu-opened {
+    display: block;
+    font-size: 1.5em;
+    float: right;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+
+  }
+
+  header .header-links .nav-menu-opened {
+    font-size: 1.9em;
+    margin-top: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+}
 
 
 

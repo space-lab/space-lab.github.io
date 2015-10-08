@@ -25,7 +25,7 @@ body {
 }
 
 ::selection {
-    background-color: #F8F2E0; 
+    background-color: #F8F2E0;
 }
 
 .container {
@@ -61,8 +61,12 @@ header .header-links .brand a {
   margin-top: -2px;
 }
 
-header .header-links ul.right-links {
+header .header-links .nav-menu {
   display: none;
+}
+
+header .header-links ul.right-links {
+  /*display: none;*/
   float: right;
 }
 
