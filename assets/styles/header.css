@@ -1,6 +1,9 @@
 body {
   background: #faf9f4;
   font-family: 'Gotham-Book';
+}
+
+.unselectable-text {
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
@@ -15,6 +18,14 @@ body {
        -moz-user-select: text;
          -o-user-select: text;
             user-select: text;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background-color: #F8F2E0;
+}
+
+::selection {
+    background-color: #F8F2E0; 
 }
 
 .container {
