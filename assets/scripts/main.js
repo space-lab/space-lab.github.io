@@ -17,6 +17,7 @@ $(function () {
   });
 
   navigation_toggle()
+  FastClick.attach(document.body)
 });
 
 function scroll(link, div){
@@ -32,7 +33,7 @@ function navigation_toggle() {
   var nav = $('.right-links')
   var nav_opened = $('.nav-menu-opened')
   var nav_toggle = $('.nav-menu, .nav-menu-opened')
-  var animate_time = 500
+  var animate_time = 300
 
   nav_opened.hide()
 
