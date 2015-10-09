@@ -29,38 +29,44 @@ function scroll(link, div){
 };
 
 function navigation_toggle() {
+
   var menu = $('.nav-menu')
   var nav = $('.right-links')
   var nav_opened = $('.nav-menu-opened')
   var nav_toggle = $('.nav-menu, .nav-menu-opened')
   var animate_time = 300
 
-  nav_opened.hide()
+  var $menu = $('.nav-menu')
+  var $nav = $('.right-links')
+  var $nav_opened = $('.nav-menu-opened')
+  var $nav_toggle = $('.nav-menu, .nav-menu-opened')
+  var animate_time = 500
 
-  nav_toggle.click(function(){
+  $nav_opened.hide()
+
+  $nav_toggle.click(function(){
     slide_toggle()
   });
 
   function slide_toggle() {
-    if(nav.height() === 0){
-      menu.hide()
-      nav_opened.show()
-      auto_height_animate(nav, animate_time)
+    if($nav.height() === 0){
+      $menu.hide()
+      $nav_opened.show()
+      auto_height_animate($nav, animate_time)
     } else {
-      menu.show()
-      nav_opened.hide()
-      nav.stop().animate({ height: '0' }, animate_time)
+      $menu.show()
+      $nav_opened.hide()
+      $nav.stop().animate({ height: '0' }, animate_time)
     }
   }
 
   function auto_height_animate(element, time){
-  	var cur_height = element.height()
+    var cur_height = element.height()
     var auto_height = element.css('height', 'auto').height()
 
     element.height(cur_height)
 	  element.stop().animate({ height: auto_height }, parseInt(time))
   }
-
 };
 
 
