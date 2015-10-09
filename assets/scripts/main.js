@@ -16,7 +16,7 @@ $(function () {
     cssEase: 'linear'
   });
 
-  navigationToggle();
+  navigation_toggle()
 });
 
 function scroll(link, div){
@@ -27,39 +27,37 @@ function scroll(link, div){
   });
 };
 
-function navigationToggle() {
-  var menu = $('.nav-menu'),
-       nav = $('.right-links'),
-       navOpened = $('.nav-menu-opened'),
-       animateTime = 500;
+function navigation_toggle() {
+  var menu = $('.nav-menu')
+  var nav = $('.right-links')
+  var nav_opened = $('.nav-menu-opened')
+  var nav_toggle = $('.nav-menu, .nav-menu-opened')
+  var animate_time = 500
 
- navOpened.hide();
+  nav_opened.hide()
 
- $(menu).click(function(){
-   slideToggle();
- });
- $(navOpened).click(function(){
-   slideToggle();
- });
+  nav_toggle.click(function(){
+    slide_toggle()
+  });
 
- function slideToggle() {
-   if(nav.height() === 0){
-     menu.hide();
-     navOpened.show();
-     autoHeightAnimate(nav, animateTime);
-   } else {
-     menu.show();
-     navOpened.hide();
-     nav.stop().animate({ height: '0' }, animateTime);
-   }
- }
+  function slide_toggle() {
+    if(nav.height() === 0){
+      menu.hide()
+      nav_opened.show()
+      auto_height_animate(nav, animate_time)
+    } else {
+      menu.show()
+      nav_opened.hide()
+      nav.stop().animate({ height: '0' }, animate_time)
+    }
+  }
 
-  function autoHeightAnimate(element, time){
-  	var curHeight = element.height(),
-        autoHeight = element.css('height', 'auto').height();
+  function auto_height_animate(element, time){
+  	var cur_height = element.height()
+    var auto_height = element.css('height', 'auto').height()
 
-        element.height(curHeight);
-    	  element.stop().animate({ height: autoHeight }, parseInt(time));
+    element.height(cur_height)
+	  element.stop().animate({ height: auto_height }, parseInt(time))
   }
 
 };
