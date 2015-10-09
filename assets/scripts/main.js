@@ -17,6 +17,7 @@ $(function () {
   });
 
   navigation_toggle()
+  FastClick.attach(document.body)
 });
 
 function scroll(link, div){
@@ -28,6 +29,13 @@ function scroll(link, div){
 };
 
 function navigation_toggle() {
+
+  var menu = $('.nav-menu')
+  var nav = $('.right-links')
+  var nav_opened = $('.nav-menu-opened')
+  var nav_toggle = $('.nav-menu, .nav-menu-opened')
+  var animate_time = 300
+
   var $menu = $('.nav-menu')
   var $nav = $('.right-links')
   var $nav_opened = $('.nav-menu-opened')
