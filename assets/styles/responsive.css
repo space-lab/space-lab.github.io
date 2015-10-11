@@ -21,6 +21,16 @@
 
 }
 
+@media screen and (min-width: 691px ) {
+  header .header-links .nav-menu,
+  header .header-links .nav-menu-opened {
+    display: none !important;
+
+  }
+}
+
+
+
 @media screen and (max-width: 690px) {
 
   header {
@@ -68,6 +78,7 @@
     bottom: 15px;
     right: 10px;
 
+
   }
 
   header .header-links .nav-menu-opened {
@@ -76,6 +87,7 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    display: none;
   }
 
 }
@@ -151,7 +163,7 @@
   .container {
     max-width: 960px;
   }
-  
+
   .space-image .space-art-work img {
     display: block;
     margin: 0 auto;
