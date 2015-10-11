@@ -1,6 +1,7 @@
 .space-image {
   margin: 20px 40px 35px;;
   background: #faf9f4;
+  overflow: hidden;
 }
 
 .space-image .space-art-work img {
