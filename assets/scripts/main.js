@@ -6,6 +6,36 @@ $(function () {
   scroll('#team-link', '#team');
   scroll('#contact-link', '#contact');
 
+
+
+function slider_arrow_switcher() {
+  var img_left_active = 'assets/images/left-arrow.svg';
+  var img_left_inactive = 'assets/images/left-arrow-inactive.svg';
+  var img_right_active = 'assets/images/right-arrow.svg';
+  var img_right_inactive = 'assets/images/right-arrow-inactive.svg';
+
+
+  $('.prev, .next').click(function() {
+    var sliders_length = $('.case-studie').length;
+    var current_clicked_index = $(this).closest('.case-studie').data('slickIndex') + 1;
+
+    if(current_clicked_index < 1) {
+      $('.case-studie').eq(0).find('.arrows .prev').attr('src', img_left_inactive);
+      $('.case-studie').eq(0).find('.arrows .next').attr('src', img_right_active);
+    } else if ( current_clicked_index < sliders_length - 1 ) {
+      $('.case-studie').eq(current_clicked_index).find('.arrows .prev').attr('src', img_left_active);
+      $('.case-studie').eq(current_clicked_index).find('.arrows .next').attr('src', img_right_active);
+    } else if (current_clicked_index <= sliders_length - 1) {
+      $('.case-studie:last-child').find('.arrows .prev').attr('src', img_left_active);
+      $('.case-studie:last-child').find('.arrows .next').attr('src', img_right_inactive);
+    }
+  });
+
+}
+
+
+
+
   //case stuidies functionality
   $('.case-studies').slick({
     prevArrow: $('.prev'),
@@ -17,6 +47,7 @@ $(function () {
   });
 
   navigation_toggle()
+  slider_arrow_switcher();
   FastClick.attach(document.body)
 });
 
