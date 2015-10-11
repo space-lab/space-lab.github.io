@@ -16,8 +16,26 @@ function slider_arrow_switcher() {
 
 
   $('.prev, .next').click(function() {
+    var $this = $(this).closest('.case-studie').data('slickIndex') + 1;
+
+    switch_arrows($this)
+
+  });
+
+  $('.case-studie').on('swipe', function(event, slick, direction){
+    var $this = $(this);
+
+    switch_arrows($this);
+
+  });
+
+
+
+
+
+  function switch_arrows($this) {
     var sliders_length = $('.case-studie').length;
-    var current_clicked_index = $(this).closest('.case-studie').data('slickIndex') + 1;
+    var current_clicked_index = $this;
 
     if(current_clicked_index < 1) {
       $('.case-studie').eq(0).find('.arrows .prev').attr('src', img_left_inactive);
@@ -29,7 +47,7 @@ function slider_arrow_switcher() {
       $('.case-studie:last-child').find('.arrows .prev').attr('src', img_left_active);
       $('.case-studie:last-child').find('.arrows .next').attr('src', img_right_inactive);
     }
-  });
+  }
 
 }
 
