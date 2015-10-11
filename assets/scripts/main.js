@@ -20,14 +20,14 @@ function slider_arrow_switcher() {
     var current_clicked_index = $(this).closest('.case-studie').data('slickIndex') + 1;
 
     if(current_clicked_index < 1) {
-      $('.case-studie').eq(0).find('.arrows').find('.prev').attr('src',img_left_inactive);
-      $('.case-studie').eq(0).find('.arrows').find('.next').attr('src',img_right_active);
+      $('.case-studie').eq(0).find('.arrows .prev').attr('src', img_left_inactive);
+      $('.case-studie').eq(0).find('.arrows .next').attr('src', img_right_active);
     } else if ( current_clicked_index < sliders_length - 1 ) {
-      $('.case-studie').eq(current_clicked_index).find('.arrows').find('.prev').attr('src',img_left_active);
-      $('.case-studie').eq(current_clicked_index).find('.arrows').find('.next').attr('src',img_right_active);
+      $('.case-studie').eq(current_clicked_index).find('.arrows .prev').attr('src', img_left_active);
+      $('.case-studie').eq(current_clicked_index).find('.arrows .next').attr('src', img_right_active);
     } else if (current_clicked_index <= sliders_length - 1) {
-      $('.case-studie:last-child').find('.arrows').find('.prev').attr('src',img_left_active);
-      $('.case-studie:last-child').find('.arrows').find('.next').attr('src',img_right_inactive);
+      $('.case-studie:last-child').find('.arrows .prev').attr('src', img_left_active);
+      $('.case-studie:last-child').find('.arrows .next').attr('src', img_right_inactive);
     }
   });
 
