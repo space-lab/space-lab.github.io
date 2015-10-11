@@ -100,6 +100,7 @@
   line-height: 20px;
   margin-bottom: 50px;
   transition: all 0.4s ease 0s;
+  text-align: center;
 }
 
 .btn-hover:hover {
