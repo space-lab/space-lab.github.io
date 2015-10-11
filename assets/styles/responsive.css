@@ -27,6 +27,12 @@
     display: none !important;
 
   }
+
+  header .header-links ul.right-links {
+    height: 0 !important;
+  }
+
+
 }
 
 
