@@ -67,6 +67,27 @@ function slider_arrow_switcher() {
   navigation_toggle()
   slider_arrow_switcher();
   FastClick.attach(document.body)
+
+
+  $('.profile-image img').hover(function() {
+    $(this).addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e) {
+      $(this).removeClass('animated pulse');
+    });
+  })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 function scroll(link, div){
