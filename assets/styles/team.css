@@ -46,11 +46,12 @@
 .team .team-members .team-member .profile-image img {
   width: 150px;
   padding: 8px;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-   -khtml-border-radius: 50%;
-          border-radius: 50%;
-    border: solid 2px transparent;
+  border: solid 2px transparent;
+  transition: border 0.5s ease 0.1s;
+     -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+      -khtml-border-radius: 50%;
+             border-radius: 50%;
 }
 
 .team .team-members .team-member .profile-image img:hover {
