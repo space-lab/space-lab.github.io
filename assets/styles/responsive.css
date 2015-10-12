@@ -19,6 +19,10 @@
     margin-left: 30px;
   }
 
+  .work .case-studies .arrows img {
+    display: none !important;
+  }
+
 }
 
 @media screen and (min-width: 691px ) {
@@ -95,6 +99,8 @@
     right: 10px;
     display: none;
   }
+
+
 
 }
 
