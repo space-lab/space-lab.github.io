@@ -17,7 +17,7 @@ function slider_arrow_switcher() {
 
   $('.prev, .next').click(function() {
     var $this = $(this).closest('.case-studie').data('slickIndex') + 1;
-
+    $(this).closest('.case-studie').next().addClass('animated fadeInRight');
     switch_arrows($this)
 
   });
@@ -67,6 +67,27 @@ function slider_arrow_switcher() {
   navigation_toggle()
   slider_arrow_switcher();
   FastClick.attach(document.body)
+
+
+  $('.profile-image img').hover(function() {
+    $(this).addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e) {
+      $(this).removeClass('animated pulse');
+    });
+  })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 function scroll(link, div){

@@ -103,6 +103,10 @@
   text-align: center;
 }
 
+.read:focus {
+  outline: none;
+}
+
 .btn-hover:hover {
   color: #faf9f4 !important;
   background: #333333 !important;
