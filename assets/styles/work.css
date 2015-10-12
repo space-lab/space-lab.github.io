@@ -42,6 +42,10 @@
   float: left;
 }*/
 
+.work .case-studies .left {
+  padding-left: 0;
+}
+
 .work .case-studies .right {
   padding-left: 30px;
   padding-top: 0px;
