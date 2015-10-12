@@ -47,7 +47,7 @@
   width: 150px;
   padding: 8px;
   border: solid 2px transparent;
-  transition: border 1s ease-out;
+  transition: border 1s ease-in;
      -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
       -khtml-border-radius: 50%;
@@ -57,6 +57,8 @@
 .team .team-members .team-member .profile-image img:hover {
   padding: 6px;
   border: solid 2px black;
+  transition: border 0s ease;
+
 }
 
 .team .team-members .team-member .name {
