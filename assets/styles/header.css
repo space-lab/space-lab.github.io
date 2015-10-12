@@ -21,11 +21,11 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    background-color: #F8F2E0;
+    background-color: rgba(153, 216, 255, 0.5);
 }
 
 ::selection {
-    background-color: #F8F2E0;
+    background-color: rgba(153, 216, 255, 0.5);
 }
 
 .container {
