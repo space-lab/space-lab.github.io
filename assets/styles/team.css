@@ -68,6 +68,7 @@
   color: #000000;
   letter-spacing: 2px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
 .team .team-members .team-member .social-links {
