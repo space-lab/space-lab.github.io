@@ -17,7 +17,6 @@ function slider_arrow_switcher() {
 
   $('.prev, .next').click(function() {
     var $this = $(this).closest('.case-studie').data('slickIndex') + 1;
-    $(this).closest('.case-studie').next().addClass('animated fadeInRight');
     switch_arrows($this)
 
   });
@@ -74,18 +73,6 @@ function slider_arrow_switcher() {
       $(this).removeClass('animated pulse');
     });
   })
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
