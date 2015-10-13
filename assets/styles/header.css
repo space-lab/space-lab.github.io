@@ -63,13 +63,13 @@ header .header-links .brand a {
 
 header .header-links .nav-menu {
   background-image: url(../images/hamburger.svg);
-  background-size: 20px;
+  background-size: 16px;
   display: none;
 }
 
 header .header-links .nav-menu-opened {
   background-image: url(../images/close.svg);
-  background-size: 20px;
+  background-size: 16px;
 
 }
 
