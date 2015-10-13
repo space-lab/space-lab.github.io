@@ -1,18 +1,3 @@
 ul {
   margin-bottom: 0;
 }
-
-.bug-1,.bug-2 {
-  width: 100px;
-      height: 16px;
-      background: red;
-      opacity: 0.6;
-      position: absolute;
-      top: 0;
-      left: 24px;
-}
-
-.bug-2 {
-  top: 32px;
-  right: 24px;
-}
