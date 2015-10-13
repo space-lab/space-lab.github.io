@@ -9,15 +9,13 @@
 @media screen and (max-width: 868px) {
 
   header .header-links ul.right-links li {
-    margin-left: 45px;
+    margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
 
-  header .header-links ul.right-links li {
-    margin-left: 30px;
-  }
+
 
   .work .case-studies .arrows img {
     display: none !important;
@@ -66,6 +64,7 @@
     height: 0;
     margin-bottom: 0;
     overflow: hidden;
+    padding: 0;
   }
 
   header .header-links ul.right-links li {
@@ -84,7 +83,8 @@
     float: right;
     width: 16px;
     height: 16px;
-    margin: 5px 0;
+    position: relative;
+    margin: 16px;
   }
 
 }
@@ -219,5 +219,9 @@
 @media screen and (max-width: 479px) {
   .contact .offer {
     margin-bottom: 30px;
+  }
+
+  .container {
+    width: 90%;
   }
 }

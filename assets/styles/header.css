@@ -43,8 +43,8 @@ header {
 }
 
 header .header-links {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  /*margin: 16px;*/
+
 }
 
 header .header-links a, header .header-links a:hover {
@@ -59,6 +59,9 @@ header .header-links .brand a {
   letter-spacing: 2px;
   line-height: 26px;
   float: left;
+  position: relative;
+  bottom: -1px;
+  margin: 11px 0;
 }
 
 header .header-links .nav-menu {
@@ -81,6 +84,7 @@ header .header-links .nav-menu-opened:focus {
 header .header-links ul.right-links {
   /*display: none;*/
   float: right;
+  padding: 11px 0;
 }
 
 header .header-links ul.right-links li {
