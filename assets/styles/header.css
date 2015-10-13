@@ -38,12 +38,13 @@ a:hover, a:focus {
 
 header {
   width: 100%;
-  height: 70px;
+  /*height: 70px;*/
   background: white;
 }
 
 header .header-links {
-  margin-top: 25px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 header .header-links a, header .header-links a:hover {
@@ -58,7 +59,6 @@ header .header-links .brand a {
   letter-spacing: 2px;
   line-height: 26px;
   float: left;
-  margin-top: -2px;
 }
 
 header .header-links .nav-menu {
@@ -72,6 +72,11 @@ header .header-links .nav-menu-opened {
   background-size: 16px;
 
 }
+header .header-links .nav-menu:focus
+header .header-links .nav-menu-opened:focus {
+  transition: all 0.5s ease;
+}
+
 
 header .header-links ul.right-links {
   /*display: none;*/
@@ -82,6 +87,7 @@ header .header-links ul.right-links li {
   list-style: none;
   display: inline-block;
   margin-left: 60px;
+  padding-top: 4px;
 }
 
 header .header-links ul.right-links li a {
