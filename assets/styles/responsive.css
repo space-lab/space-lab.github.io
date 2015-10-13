@@ -23,6 +23,10 @@
     display: none !important;
   }
 
+  .work .case-studies .right {
+    padding-left: 0;
+  }
+
 }
 
 @media screen and (min-width: 691px ) {
@@ -82,25 +86,11 @@
   header .header-links .nav-menu,
   header .header-links .nav-menu-opened {
     display: block;
-    font-size: 1.5em;
     float: right;
-    position: absolute;
-    bottom: 15px;
-    right: 10px;
-
+    width: 20px;
+    height: 20px;
 
   }
-
-  header .header-links .nav-menu-opened {
-    font-size: 1.9em;
-    margin-top: 0;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    display: none;
-  }
-
-
 
 }
 
@@ -228,5 +218,11 @@
 
   .team .text {
     padding: 0 27% 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact .offer {
+    margin-bottom: 30px;
   }
 }

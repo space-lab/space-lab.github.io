@@ -62,7 +62,15 @@ header .header-links .brand a {
 }
 
 header .header-links .nav-menu {
+  background-image: url(../images/hamburger.svg);
+  background-size: 20px;
   display: none;
+}
+
+header .header-links .nav-menu-opened {
+  background-image: url(../images/close.svg);
+  background-size: 20px;
+
 }
 
 header .header-links ul.right-links {
