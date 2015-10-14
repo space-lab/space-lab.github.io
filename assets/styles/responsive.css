@@ -9,18 +9,20 @@
 @media screen and (max-width: 868px) {
 
   header .header-links ul.right-links li {
-    margin-left: 45px;
+    margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
 
-  header .header-links ul.right-links li {
-    margin-left: 30px;
-  }
+
 
   .work .case-studies .arrows img {
     display: none !important;
+  }
+
+  .work .case-studies .right {
+    padding-left: 0;
   }
 
 }
@@ -39,17 +41,10 @@
 
 }
 
-
-
 @media screen and (max-width: 690px) {
 
   header {
     height: auto;
-  }
-
-  header .header-links {
-    padding-bottom: 15px;
-    position: relative;
   }
 
   .nav-open {
@@ -67,6 +62,7 @@
     height: 0;
     margin-bottom: 0;
     overflow: hidden;
+    padding: 0;
   }
 
   header .header-links ul.right-links li {
@@ -82,25 +78,12 @@
   header .header-links .nav-menu,
   header .header-links .nav-menu-opened {
     display: block;
-    font-size: 1.5em;
     float: right;
-    position: absolute;
-    bottom: 15px;
-    right: 10px;
-
-
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin: 20px 0;
   }
-
-  header .header-links .nav-menu-opened {
-    font-size: 1.9em;
-    margin-top: 0;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    display: none;
-  }
-
-
 
 }
 
@@ -228,5 +211,15 @@
 
   .team .text {
     padding: 0 27% 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact .offer {
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 90%;
   }
 }
