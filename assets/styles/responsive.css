@@ -15,6 +15,11 @@
 
 @media screen and (max-width: 768px) {
 
+  .mobile-full-width {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
 
   .work .case-studies .arrows img {
@@ -22,7 +27,7 @@
   }
 
   .work .case-studies .right {
-    padding-left: 0;
+    padding-left: 15px;
   }
 
 }
@@ -132,10 +137,6 @@
     padding: 0 10% 60px;
   }
 
-  .contact hr {
-    margin-top: 80px;
-  }
-
   .contact footer .copyright {
     width: 70%;
     display: inline-block;
@@ -216,7 +217,7 @@
 
 @media screen and (max-width: 479px) {
   .contact .offer {
-    margin-bottom: 30px;
+    margin-bottom: 29px;
   }
 
   .container {
