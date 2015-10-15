@@ -1,8 +1,8 @@
 .quote {
-  height: 220px;
   text-align: center;
   background: #fbfbfb;
   padding: 0 20px;
+  padding-bottom: 40px;
 }
 
 .quote .sign {

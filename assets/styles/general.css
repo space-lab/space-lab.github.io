@@ -1,3 +1,7 @@
 ul {
   margin-bottom: 0;
 }
+
+footer {
+  position: relative;
+}
