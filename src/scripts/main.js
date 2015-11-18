@@ -9,10 +9,10 @@ $(function () {
 
 
 function slider_arrow_switcher() {
-  var img_left_active = 'assets/images/left-arrow.svg';
-  var img_left_inactive = 'assets/images/left-arrow-inactive.svg';
-  var img_right_active = 'assets/images/right-arrow.svg';
-  var img_right_inactive = 'assets/images/right-arrow-inactive.svg';
+  var img_left_active = 'dist/images/left-arrow.svg';
+  var img_left_inactive = 'dist/images/left-arrow-inactive.svg';
+  var img_right_active = 'dist/images/right-arrow.svg';
+  var img_right_inactive = 'dist/images/right-arrow-inactive.svg';
 
 
   $('.prev, .next').click(function() {

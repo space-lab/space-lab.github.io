@@ -1,0 +1,25 @@
+/* vendor styles */
+@import "vendors/reset.css";
+@import "vendors/bootstrap.min.css";
+@import "vendors/animate.css";
+@import "vendors/slick.css";
+
+/* typography */
+@import "gotham.css";
+
+/* partial styles */
+@import "general.css";
+@import "header.css";
+@import "space.css";
+@import "about.css";
+@import "services.css";
+@import "work.css";
+@import "quote.css";
+@import "team.css";
+@import "contact.css";
+
+/* asset styles */
+@import "assets.css";
+
+/* responsive styles */
+@import "responsive.css";
