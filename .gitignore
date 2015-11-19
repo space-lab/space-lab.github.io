@@ -2,3 +2,4 @@
 !/log/.keep
 /tmp
 .DS_Store
+node_modules

@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>SPACELAB</title>
-    <link rel="stylesheet" href="assets/styles/vendors/slick.css">
-    <link rel="stylesheet" href="assets/styles/vendors/animate.css">
+    <meta property="og:title" content="SPACELAB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://spacelab.team/" />
+    <meta property="og:image" content="http://spacelab.team/src/images/logo.png" />
+    <!-- end of meta tags -->
 
-    <link rel="stylesheet" href="assets/styles/main.css" media="screen">
+    <title>SPACELAB</title>
+
+    <!-- Favicon in Firefox, Chrome, Safari, IE 11+ and Opera  -->
+    <link rel="icon" href="src/images/logo.png">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="dist/styles/app.min.css" media="screen">
+    <!-- end of styles  -->
+
   </head>
+
   <body class="unselectable-text">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,11 +72,11 @@
       <div class="space-art-work">
 
         <ul id="scene">
-          <li class="layer" data-depth="0.20"><img src="assets/images/artwork/layer-1.png"></li>
-          <li class="layer" data-depth="0.40"><img src="assets/images/artwork/layer-2.png"></li>
-          <li class="layer" data-depth="0.60"><img src="assets/images/artwork/layer-3.png"></li>
-          <li class="layer" data-depth="0.80"><img src="assets/images/artwork/layer-4.png"></li>
-          <li class="layer" data-depth="1.00"><img src="assets/images/artwork/layer-5.png"></li>
+          <li class="layer" data-depth="0.20"><img src="dist/images/layer-1.png"></li>
+          <li class="layer" data-depth="0.40"><img src="dist/images/layer-2.png"></li>
+          <li class="layer" data-depth="0.60"><img src="dist/images/layer-3.png"></li>
+          <li class="layer" data-depth="0.80"><img src="dist/images/layer-4.png"></li>
+          <li class="layer" data-depth="1.00"><img src="dist/images/layer-5.png"></li>
         </ul>
 
         <div class="motto">
@@ -149,7 +162,7 @@
           <div class="case-studies">
             <div class="case-studie">
               <div class="left col-xs-12 col-sm-5 col-md-6">
-                <img class="img-responsive" src="assets/images/work1.png" alt="" />
+                <img class="img-responsive" src="src/images/work1.png" alt="" />
               </div>
               <div class="right description col-xs-12 col-sm-7 col-sm-6 selectable-text">
                 <div class="case-title">
@@ -168,15 +181,15 @@
                   <div class="btn-hover">VISIT PROJECT</div>
                 </a>
                 <div class="arrows unselectable-text">
-                  <img class="prev" src="assets/images/left-arrow-inactive.svg"/>
-                  <img class="next" src="assets/images/right-arrow.svg"/>
+                  <img class="prev" src="dist/images/left-arrow-inactive.svg"/>
+                  <img class="next" src="dist/images/right-arrow.svg"/>
                 </div>
               </div>
             </div>
 
             <div class="case-studie">
               <div class="left col-xs-12 col-sm-5 col-md-6">
-                <img class="img-responsive" src="assets/images/work1.png" alt="" />
+                <img class="img-responsive" src="src/images/work1.png" alt="" />
               </div>
               <div class="right description col-xs-12 col-sm-7 col-md-6 selectable-text">
                 <div class="case-title">
@@ -197,8 +210,8 @@
                   </div>
                 </a>
                 <div class="arrows unselectable-text last">
-                  <img class="prev" src="assets/images/left-arrow-inactive.svg"/>
-                  <img class="next" src="assets/images/right-arrow.svg"/>
+                  <img class="prev" src="dist/images/left-arrow-inactive.svg"/>
+                  <img class="next" src="dist/images/right-arrow.svg"/>
                 </div>
               </div>
             </div>
@@ -236,7 +249,7 @@
                 <div class="col-md-4 col-sm-6 col-md-half-1 col-xs-12">
                   <div class="team-member selectable-text">
                     <div class="profile-image unselectable-text">
-                      <img src="https://s.gravatar.com/avatar/79855cc68a0ea3280059bd3288272327?s=400">
+                      <img src="https://s.gravatar.com/avatar/79855cc68a0ea3280059bd3288272327?s=500">
                     </div>
                     <div class="name">
                       Davit Khaburdzania
@@ -392,13 +405,6 @@
       </div>
     </section>
 
-    <script src="assets/scripts/jquery-2.1.4.min.js"></script>
-    <script src="assets/scripts/jquery-event-swipe.js"></script>
-    <script src="assets/scripts/jquery.parallax.js"></script>
-    <script src="assets/scripts/vendors/fastclick.js"></script>
-    <script src="assets/scripts/requestAnimationFrame.js"></script>
-    <script src="assets/scripts/parallax.js"></script>
-    <script src="assets/scripts/vendors/slick.js"></script>
-    <script src="assets/scripts/main.js"></script>
+    <script src="dist/scripts/app.min.js"></script>
   </body>
 </html>

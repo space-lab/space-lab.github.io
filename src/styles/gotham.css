@@ -1,40 +1,40 @@
 @font-face {
   font-family: "Gotham-Black";
-  src: url(Gotham-Black.otf);
+  src: url(../../dist/fonts/Gotham-Black.otf);
 }
 
 @font-face {
   font-family: "Gotham-Bold";
-  src: url(Gotham-Bold.otf);
+  src: url(../../dist/fonts/Gotham-Bold.otf);
 }
 
 @font-face {
   font-family: "Gotham-Book";
-  src: url(Gotham-Book.otf);
+  src: url(../../dist/fonts/Gotham-Book.otf);
 }
 
 @font-face {
   font-family: "Gotham-Light";
-  src: url(Gotham-Light.otf);
+  src: url(../../dist/fonts/Gotham-Light.otf);
 }
 
 @font-face {
   font-family: "Gotham-Medium";
-  src: url(Gotham-Medium.otf);
+  src: url(../../dist/fonts/Gotham-Medium.otf);
 }
 
 @font-face {
   font-family: "Gotham-Thin";
-  src: url(/assets/fonts/Gotham-Thin.otf);
+  src: url(../../dist/fonts/Gotham-Thin.otf);
 }
 
 @font-face {
   font-family: "Gotham-Ultra";
-  src: url(/assets/fonts/Gotham-Ultra.otf);
+  src: url(../../dist/fonts/Gotham-Ultra.otf);
 }
 
 
 @font-face {
   font-family: "Gotham-XLight";
-  src: url(/assets/fonts/Gotham-XLight.otf);
+  src: url(../../dist/fonts/Gotham-XLight.otf);
 }
